@@ -1,9 +1,9 @@
 SikuliX Version 2
 ============
 
-**Version 2.0.0 under developement (pre-alpha!)** (not useable yet, massive redesign planned for 2019 ;-)
+**Version 2.0.0 under developement (pre-alpha!)** (not useable yet, massive redesign planned)
 
-**[Read about the latest ready to use version 1.1.x](http://sikulix.com)**
+**[Read about the latest ready to use SikuliX1](http://sikulix.com)**
 
 <hr>
 
@@ -19,7 +19,7 @@ For use with Java aware scripting and Java programming you might need additional
 
 **BE AWARE: Java 8+ required** 
 
-I am developing on latest Java (currently 11)<br>
+Development on latest Java<br>
 Source code level and byte code level are both 1.8
 
 **Issues and pull requests are only accepted here on Github, but currently ignored**
@@ -32,7 +32,7 @@ Implement the API completely as a REST-API backed by a server running on the tar
 
 This will allow many more client implementations even in a browser context.
 
-For backward compatibility the version 1 API will be reimplemented based on this REST-API.
+For backward compatibility the SikuliX1 API will be reimplemented based on this REST-API.
  
 Prerequisites for development and testing
 ---
