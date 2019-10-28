@@ -9,8 +9,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.sikulix</groupId>
-  <artifactId>sikulixapi</artifactId>
-  <version>2.0.0-SNAPSHOT</version>
+  <artifactId>sikulingapi</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
 
   <description>... for visual testing and automation</description>
   <url>http://www.sikulix.com</url>
@@ -34,7 +34,7 @@
   <scm>
     <connection>scm:git:git@github.com:RaiMan/SikuliX2.git</connection>
     <developerConnection>scm:git:git@github.com:RaiMan/SikuliX2.git</developerConnection>
-    <url>git@github.com:RaiMan/SikuliX2.git</url>
+    <url>git@github.com:RaiMan/SikuliNG.git</url>
   </scm>
 
   <properties>
@@ -48,65 +48,9 @@
       <id>sonatype-ossrh</id>
       <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
     </repository>
-    <repository>
-      <id>jitpack.io</id>
-      <url>https://jitpack.io</url>
-    </repository>
   </repositories>
 
   <dependencies>
-    <!--MIT License-->
-    <!--https://github.com/RaiMan/Sikulix2opencv-->
-    <dependency>
-      <groupId>com.sikulix</groupId>
-      <artifactId>sikulix2opencv</artifactId>
-      <version>2.0.0-SNAPSHOT</version>
-    </dependency>
-    <!--Apache License 2.0-->
-    <!--https://github.com/RaiMan/Sikulix2tesseract-->
-    <dependency>
-      <groupId>com.sikulix</groupId>
-      <artifactId>sikulix2tesseract</artifactId>
-      <version>2.0.0-SNAPSHOT</version>
-    </dependency>
-    <!--GNU General Public License v3.0-->
-    <!--https://github.com/RaiMan/Sikulix2nativehook-->
-    <dependency>
-      <groupId>com.sikulix</groupId>
-      <artifactId>sikulix2nativehook</artifactId>
-      <version>2.0.0-SNAPSHOT</version>
-    </dependency>
-    <!--GNU General Public License v2.0-->
-    <!--https://github.com/RaiMan/Sikulix2tigervnc-->
-    <dependency>
-      <groupId>com.sikulix</groupId>
-      <artifactId>sikulix2tigervnc</artifactId>
-      <version>2.0.0-SNAPSHOT</version>
-    </dependency>
-<!--
-    <dependency>
-      <groupId>com.sikulix</groupId>
-      <artifactId>sikulix2rtext</artifactId>
-      <version>2.0.0-SNAPSHOT</version>
-    </dependency>
--->
-    <!--modified BSD license-->
-    <!--based on https://github.com/bobbylight :: RSyntaxTextArea, AutoComplete, RSTALanguageSupport-->
-    <dependency>
-      <groupId>com.fifesoft</groupId>
-      <artifactId>rsyntaxtextarea</artifactId>
-      <version>2.6.1</version>
-    </dependency>
-    <dependency>
-      <groupId>com.fifesoft</groupId>
-      <artifactId>autocomplete</artifactId>
-      <version>2.6.1</version>
-    </dependency>
-    <dependency>
-      <groupId>com.fifesoft</groupId>
-      <artifactId>languagesupport</artifactId>
-      <version>2.6.0</version>
-    </dependency>
     <!--Apache License 2.0-->
     <dependency>
       <groupId>commons-cli</groupId>
@@ -122,55 +66,6 @@
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-configuration2</artifactId>
       <version>2.0</version>
-    </dependency>
-    <!--BSD 3-clause "New" or "Revised" License-->
-    <!--https://github.com/nativelibs4java/BridJ-->
-    <dependency>
-      <groupId>com.nativelibs4java</groupId>
-      <artifactId>bridj</artifactId>
-      <version>0.7.0</version>
-    </dependency>
-    <!--GNU Lesser General Public License v3.0-->
-    <!--https://github.com/tulskiy/jkeymaster-->
-    <dependency>
-      <groupId>com.github.tulskiy</groupId>
-      <artifactId>jkeymaster</artifactId>
-      <version>1.2</version>
-    </dependency>
-    <!--JSON License: http://www.json.org/license.html-->
-    <!--https://github.com/stleary/JSON-java-->
-    <dependency>
-      <groupId>org.json</groupId>
-      <artifactId>json</artifactId>
-      <version>20160810</version>
-    </dependency>
-    <!--BSD 3-clause "New" or "Revised" License-->
-    <!--https://github.com/NanoHttpd/nanohttpd-->
-    <dependency>
-      <groupId>org.nanohttpd</groupId>
-      <artifactId>nanohttpd</artifactId>
-      <version>2.3.0</version>
-    </dependency>
-    <!--MIT License-->
-    <!--https://github.com/Mashape/unirest-java-->
-    <dependency>
-      <groupId>com.mashape.unirest</groupId>
-      <artifactId>unirest-java</artifactId>
-      <version>1.4.9</version>
-    </dependency>
-    <!--Apache License 2.0-->
-    <!--https://github.com/vidstige/jadb-->
-    <dependency>
-      <groupId>com.github.vidstige</groupId>
-      <artifactId>jadb</artifactId>
-      <version>v1.0.1</version>
-    </dependency>
-    <!--BSD 2-clause "Simplified" License-->
-    <!--https://github.com/vsch/flexmark-java-->
-    <dependency>
-      <groupId>com.vladsch.flexmark</groupId>
-      <artifactId>flexmark-all</artifactId>
-      <version>0.28.18</version>
     </dependency>
     <!--Apache License 2.0-->
     <!--https://logging.apache.org/log4j/2.x/-->
@@ -188,12 +83,6 @@
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-nop</artifactId>
       <version>1.7.25</version>
-    </dependency>
-    <dependency>
-      <groupId>com.sikulix</groupId>
-      <artifactId>sikulix2testjar</artifactId>
-      <version>2.0.0-SNAPSHOT</version>
-      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
